@@ -57,6 +57,7 @@ docker-compose up --build -d
 
 ## Admin Panel
 This template comes with preconfigured basic logic for the UI Admin panel, which you can find at [http://localhost/admin_panel](http://localhost/admin_panel). It uses Basic Auth logic for login, and you can change the credentials in the .env file.
+![image](https://user-images.githubusercontent.com/28063406/235660467-a6d82353-bddc-4469-ad2a-c3871b13b9f0.png)
 
 ## Database Migrations
 You can use the alembic framework to handle database migrations. To create a migration, use the following command:
