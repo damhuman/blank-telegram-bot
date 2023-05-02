@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ProdimageHERE
+    env_file:
+      - ./.env
