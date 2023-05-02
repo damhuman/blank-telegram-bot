@@ -7,7 +7,6 @@ load_dotenv()
 
 # Bot configuration
 TOKEN = os.getenv('TOKEN')
-BOT_URL = os.getenv('BOT_URL')
 BOT_USERNAME = os.getenv('BOT_USERNAME')
 
 # Database configuration
@@ -27,9 +26,6 @@ ADMIN_PANEL_BASIC_AUTH_USERNAME = os.getenv('ADMIN_PANEL_BASIC_AUTH_USERNAME')
 ADMIN_PANEL_NAME = os.getenv('ADMIN_PANEL_NAME')
 ADMIN_PANEL_BASIC_AUTH_PASSWORD = os.getenv('ADMIN_PANEL_BASIC_AUTH_PASSWORD')
 
-PROXY_BOT_URL = os.getenv('PROXY_BOT_URL')
-
-PORTAL_SECRET_KEY = os.getenv('PORTAL_SECRET_KEY')
 
 en_config = configparser.ConfigParser()
 ua_config = configparser.ConfigParser()
